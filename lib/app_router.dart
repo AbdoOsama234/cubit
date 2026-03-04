@@ -10,7 +10,7 @@ class AppRouter{
 
     switch(settings.name){
       case charactersScreen:
-        return MaterialPageRoute(builder: (_)=> CaractersScreen());
+        return MaterialPageRoute(builder: (_)=> CharactersScreen());
 
       case charactersDetailsScreen:
         return MaterialPageRoute(builder: (_)=> CharactersDetails());
